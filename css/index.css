@@ -1,0 +1,23 @@
+nav { background-color: rgba(19, 2, 255, 0.404);
+    font-size: 25px;}
+
+body {font-style: italic;}
+
+.sub{
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        flex-direction: column;
+        font-size: 20px;
+
+    }
+
+
+
+h1 {display: flex;
+        flex-wrap: wrap; 
+        align-items: center;
+        flex-direction: column;
+        font-size: 450px;
+
+    }
