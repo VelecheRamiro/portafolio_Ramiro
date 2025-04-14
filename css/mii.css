@@ -24,3 +24,37 @@ body {
     font-size: 20px;
 
 }
+
+ul {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    flex-direction: row;
+}
+
+li {
+    list-style: none;
+}
+
+.info {
+    margin: 10px;
+    border: 2px solid #1100ff;
+    background-color: rgb(253, 255, 162);
+    box-sizing: border-box;
+    width: 50%;
+    font-family: initial;
+    font-size: 18px;
+    font-weight: 500;
+    padding: 10px;
+}
+
+.desinfo {
+    margin: 20px;
+    margin-left: 100px;
+}
+
+.resalta {
+    color: #5a3ce0;
+    font-size: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
