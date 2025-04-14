@@ -24,3 +24,27 @@ body {
     font-size: 20px;
 
 }
+
+
+
+ul {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    flex-direction: row;
+}
+
+li {
+    list-style: none;
+}
+
+.txt {
+    margin: 10px;
+    width: 50%;
+    font-family: initial;
+    font-size: 18px;
+    font-weight: 500;
+    padding: 10px;
+}
+
+
