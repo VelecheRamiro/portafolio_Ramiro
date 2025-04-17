@@ -9,6 +9,7 @@ body {font-style: italic;}
     align-items: center;
     flex-direction: column;
     font-size: 60px;
+    padding-bottom: 5%;
 }
 
 .sub {
@@ -16,6 +17,34 @@ body {font-style: italic;}
     flex-wrap: wrap;
     align-items: center;
     flex-direction: column;
-    font-size: 20px;
+    font-size: 20px;}
 
+
+ul {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    flex-direction: row;
 }
+
+.im{
+    list-style: none;
+}
+
+
+
+.info {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    flex-direction: column;
+    list-style: none;
+    width: 5%;
+    font-family: initial;
+    font-size: 18px;
+    font-weight: 500;
+    padding: 10px;
+    box-sizing: border-box;
+    width: 30%;
+}
+
