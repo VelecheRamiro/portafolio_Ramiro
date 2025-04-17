@@ -38,13 +38,15 @@ li {
     list-style: none;
 }
 
-.txt {
+.txt{
     margin: 10px;
-    width: 50%;
+    width: 10%;
     font-family: initial;
     font-size: 18px;
     font-weight: 500;
     padding: 10px;
+    box-sizing: border-box;
+    width: 50%;
 }
 
 
