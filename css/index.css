@@ -35,3 +35,10 @@ img{border-radius: 50%;
     align-items: right;
     font-size: 20px;
 margin-left: 30px;}
+
+div{display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    flex-direction: row;
+    list-style: none;
+    padding: 10px;}
