@@ -32,14 +32,24 @@ ul {
     display: flex;
     flex-wrap: wrap;
     align-items: center;
-    flex-direction: row;
+    flex-direction: column;
 }
 
 .im{
     list-style: none;
 }
 
+.super{display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    flex-direction: row;}
 
+.elec{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    flex-direction: row;
+}
 
 .info {
     display: flex;
@@ -47,13 +57,11 @@ ul {
     align-items: center;
     flex-direction: column;
     list-style: none;
-    width: 5%;
     font-family: initial;
     font-size: 18px;
     font-weight: 500;
     padding: 10px;
-    box-sizing: border-box;
-    width: 22%;
+
 }
 
 
