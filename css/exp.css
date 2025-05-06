@@ -73,3 +73,20 @@ ul {
     font-size: 29px;
 }
 
+.Titems{ margin-left: 30%;
+    display: flex;
+    flex-wrap: wrap;
+        align-items: center;
+}
+
+.Tinfo{ 
+     margin: 10px;
+        border: 2px solid #1100ff;
+        background-color: rgb(253, 255, 162);
+        box-sizing: border-box;
+        width: 50%;
+        font-family: initial;
+        font-size: 18px;
+        font-weight: 500;
+        padding: 10px;
+    }
