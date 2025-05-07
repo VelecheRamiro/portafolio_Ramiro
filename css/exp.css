@@ -31,7 +31,7 @@ body {font-style: italic;}
 ul {
     display: flex;
     flex-wrap: wrap;
-    align-items: center;
+    align-items: left;
     flex-direction: column;
 }
 
@@ -54,7 +54,7 @@ ul {
 .info {
     display: flex;
     flex-wrap: wrap;
-    align-items: center;
+    align-items: left;
     flex-direction: column;
     list-style: none;
     font-family: initial;
@@ -68,7 +68,7 @@ ul {
 .tpr {
     display: flex;
     flex-wrap: wrap;
-    align-items: center;
+    align-items: left;
     flex-direction: column;
     font-size: 29px;
 }
