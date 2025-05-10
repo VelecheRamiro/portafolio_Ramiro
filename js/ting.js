@@ -6,14 +6,17 @@ const translations = {
         boting: ['Translate', 'Traducir'],
         mis: ['Mis estudios', 'My studies'],
         exp: ['Experiencia', 'Experience'],
+        init: ['Inicio', 'Init'],
         fecha: ['Fecha de nacimiento: 14/02/2004', 'BirthDay: 02/14/2004']
     },
     exp: {
         titulo: ['Mi Experiencia laboral', 'My Work Experience'],
         boting: ['Translate', 'Traducir'],
+        sobre: ['Sobre mi', 'About me'],
         exp: ['Experiencia', 'Experience'],
         mis: ['Mis estudios', 'My studies'],
         pub: ['Atencion al publico', 'Costumer service'],
+        init: ['Inicio', 'Init'],
         cinfo: ['Trabajo en supermercado 5mentarios principalmente encargado de las gestion del progama del sistema, manejo de compras, cuentas corrientes y atencion a los clientes. Tambien realizaba las tareas de cajero y reposicion cuando era necesario.', 'Worked in a supermarket call "5mentarios" mainly as the management of the progam of the market, purchasing manager, checking account, and costumer service. Also I realized the rol of cashier and repository when it was necessary'],
         einfo: ['Trabajo en una casa de ventas de materiales electricos, encargado de gestion de la contabilidad del negocio en compras y ventas, manejo de las redes sociales y atencion al publico. Tambien realizo las tareas de reposicion, publicidades, y papeleo','Work in a electrical store "Electromas" as the accounting in the purchasese and sales of the store, management of the social media, costumer service. Also I perform the tasks of repository,advertising, and paperwork']
 
@@ -22,11 +25,13 @@ const translations = {
         sobre: ['Sobre mi', 'About me'],
         mis: ['Mis estudios', 'My studies'],
         boting: ['Translate', 'Traducir'],
+        init: ['Inicio', 'Init'],
         exp: ['Experiencia', 'Experience'],
     },
     study: {
         sobre: ['Sobre mi', 'About me'],
         mis: ['Mis estudios', 'My studies'],
+        init: ['Inicio', 'Init'],
         boting: ['Translate', 'Traducir'],
         exp: ['Experiencia', 'Experience'],
     }
