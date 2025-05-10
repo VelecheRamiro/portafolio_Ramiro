@@ -1,19 +1,21 @@
 function setLanguageToSpanish() {
+    document.getElementById('boting').textContent = 'Translate';
     document.getElementById('titulo').textContent = 'Ramiro Veleche';
     document.getElementById('sobre').textContent = 'Sobre mi';
-    document.getElementById('boting').textContent = 'Translate';
     document.getElementById('exp').textContent = 'Experiencia';
     document.getElementById('expp').textContent = 'Experiencia';
     document.getElementById('botingg').textContent = 'Translate';
+    document.getElementById('no existe').textContent= 'No existe';
 }
 
 function setLanguageToEnglish() {
+    document.getElementById('boting').textContent = 'Traducir';
     document.getElementById('titulo').textContent = 'Veleche Ramiro';
     document.getElementById('sobre').textContent = 'About me';
-    document.getElementById('boting').textContent = 'Traducir';
     document.getElementById('exp').textContent = 'Experience';
     document.getElementById('expp').textContent = 'Experience';
     document.getElementById('botingg').textContent = 'Traducir';
+    document.getElementById ('existent').textContent = 'que no';
 }
 
 function toggleLanguage() {
