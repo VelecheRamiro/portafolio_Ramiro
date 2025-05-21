@@ -67,48 +67,7 @@ body {
     margin-top: 10px;
 }
 
-.pues {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
-    margin: 40px 20px;
-    gap: 30px;
-}
 
-.pues .info {
-    max-width: 600px;
-}
-
-.pues img {
-    border-radius: 12px;
-    max-width: 200px;
-    height: auto;
-}
-
-.yoo {
-    background: #ffffff;
-    padding: 30px;
-    border-radius: 12px;
-    margin: 40px 20px;
-    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
-}
-
-.info,
-.info2 {
-    list-style: none;
-    padding-left: 0;
-}
-
-.info li,
-.info2 li {
-    padding: 8px 0;
-    border-bottom: 1px solid #eee;
-}
-
-.info2 {
-    margin-top: 20px;
-}
 
 button#boting {
     background-color: #3498db;
