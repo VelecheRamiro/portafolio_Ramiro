@@ -3,7 +3,7 @@
 <head>
 <title>Mi Curriculum</title>
 <script src="static/js.js"></script>
-<link rel="stylesheet" href="css/exp.css">
+<link rel="stylesheet" href="css/contact.css">
 
 <nav class="navbar navbar-expand-lg ">
     <div class="container-fluid">
@@ -52,8 +52,31 @@
  <p class="titulo" id="titulo">Mi Experiencia laboral</p>
 
     
+<form class="contact-form" action="https://formsubmit.co/tuemail@ejemplo.com" method="POST">
+    <h2>Contáctame</h2>
 
- 
+    <input type="text" name="name" placeholder="Tu nombre" required>
+    <input type="email" name="email" placeholder="Tu correo electrónico" required>
+    <textarea name="message" rows="6" placeholder="Escribe tu mensaje aquí..." required></textarea>
+
+    <!-- Anti-spam field -->
+    <input type="text" name="_honey" class="hidden">
+
+    <!-- Opcionales -->
+    <input type="hidden" name="_captcha" value="false">
+    <input type="hidden" name="_next" value="https://tupagina.com/gracias.html">
+
+    <button type="submit">Enviar mensaje</button>
+</form>
+
+
+
+
+
+
+
+
+
 
 <script src="js/ting.js"></script>
 
