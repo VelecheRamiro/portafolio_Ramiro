@@ -49,25 +49,32 @@
             
 <p class="sub">Curriculum vitae</p>
             
- <p class="titulo" id="titulo">Mi Experiencia laboral</p>
-
-    
-<form class="contact-form" action="https://formsubmit.co/tuemail@ejemplo.com" method="POST">
+<div class="contact-container">
     <h2>Contáctame</h2>
 
-    <input type="text" name="name" placeholder="Tu nombre" required>
-    <input type="email" name="email" placeholder="Tu correo electrónico" required>
-    <textarea name="message" rows="6" placeholder="Escribe tu mensaje aquí..." required></textarea>
+    <form action="https://formsubmit.co/tuemail@ejemplo.com" method="POST">
+        <input type="text" name="name" placeholder="Tu nombre" required>
+        <input type="email" name="email" placeholder="Tu correo electrónico" required>
+        <textarea name="message" rows="6" placeholder="Escribe tu mensaje aquí..." required></textarea>
 
-    <!-- Anti-spam field -->
-    <input type="text" name="_honey" class="hidden">
+        <input type="text" name="_honey" class="hidden">
+        <input type="hidden" name="_captcha" value="false">
+        <input type="hidden" name="_next" value="https://tupagina.com/gracias.html">
 
-    <!-- Opcionales -->
-    <input type="hidden" name="_captcha" value="false">
-    <input type="hidden" name="_next" value="https://tupagina.com/gracias.html">
+        <button type="submit">Enviar mensaje</button>
+    </form>
 
-    <button type="submit">Enviar mensaje</button>
-</form>
+    <div class="social-links">
+        <a href="https://wa.me/1234567890" target="_blank" title="WhatsApp">
+            <img src="https://cdn-icons-png.flaticon.com/512/733/733585.png" alt="WhatsApp">
+        </a>
+        <a href="https://www.instagram.com/tuusuario" target="_blank" title="Instagram">
+            <img src="https://cdn-icons-png.flaticon.com/512/174/174855.png" alt="Instagram">
+        </a>
+        <a href="https://www.linkedin.com/in/tuusuario" target="_blank" title="LinkedIn">
+            <img src="https://cdn-icons-png.flaticon.com/512/174/174857.png" alt="LinkedIn">
+        </a>
+    </div>
 
 
 
