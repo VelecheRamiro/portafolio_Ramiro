@@ -1,6 +1,7 @@
 body {
     font-family: 'Segoe UI', sans-serif;
-    background-color: #f7f9fc;
+    background-color: #00055c;
+        background-image: url("https://www.transparenttextures.com/patterns/shattered.png");
     color: #333;
     margin: 0;
     padding: 0;
@@ -47,7 +48,7 @@ button#boting {
 }
 .contact-container {
     margin-left: 31%;
-    background: white;
+    background: rgb(255, 255, 255);
     padding: 30px;
     border-radius: 12px;
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
