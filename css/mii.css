@@ -1,7 +1,7 @@
 body {
     font-family: 'Segoe UI', sans-serif;
     background-color: #f7f9fc;
-    color: #333;
+    color: #ffffff;
     margin: 0;
     padding: 0;
 }
@@ -26,7 +26,7 @@ body {
 .sub {
     text-align: center;
     font-size: 1.2rem;
-    color: #666;
+    color: #cecece;
     margin-top: 10px;
 }
 
@@ -50,7 +50,7 @@ body {
 }
 
 .yoo {
-    background: #ffffff;
+    background: #596e77;
     padding: 30px;
     border-radius: 12px;
     margin: 40px 20px;
@@ -87,3 +87,7 @@ button#boting {
         flex-direction: column;
     }
 }
+
+body {background-color: #00055c;
+    background-image: url("https://www.transparenttextures.com/patterns/shattered.png");
+    /* This is mostly intended for prototyping; please download the pattern and re-host for production environments. Thank you! */}
