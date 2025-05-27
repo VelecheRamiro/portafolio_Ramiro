@@ -1,7 +1,9 @@
 body {
+    background-color: #00055c;
+        background-image: url("https://www.transparenttextures.com/patterns/shattered.png");
+        
     font-family: 'Segoe UI', sans-serif;
-    background-color: #f7f9fc;
-    color: #333;
+    color: #ffffff;
     margin: 0;
     padding: 0;
 }
@@ -67,7 +69,7 @@ ul {
 }
 
  .super-container {
-     background-color: #ffffff;
+     background-color: #7a87cf;
      border-radius: 15px;
      box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
      padding: 20px;
@@ -95,7 +97,8 @@ ul {
  }
 
  .info-container ul li {
-     background-color: #efefef;
+     background-color: hsl(61, 75%, 63%);
+     color: #000000;
      margin-bottom: 10px;
      padding: 10px 15px;
      border-radius: 10px;
@@ -107,10 +110,11 @@ ul {
  }
 
  .Tinfo {
-     background-color: #f4f4f4;
+     background-color: #000000;
      padding: 15px;
      border-radius: 10px;
      box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
+    color: #000000;
  }
 
  .contact-info {
@@ -123,7 +127,7 @@ ul {
 
 
  .elec-container {
-     background-color: #ffffff;
+     background-color: #7a87cf;
      border-radius: 15px;
      box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
      padding: 20px;
@@ -151,7 +155,7 @@ ul {
  }
 
  .elec-info-container ul li {
-     background-color: #efefef;
+     background-color: #3315b8;
      margin-bottom: 10px;
      padding: 10px 15px;
      border-radius: 10px;
@@ -176,3 +180,4 @@ ul {
  .contact-info p {
      margin: 5px 0;
  }
+
