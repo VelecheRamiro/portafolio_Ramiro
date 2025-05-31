@@ -145,3 +145,8 @@ body {
     left: 7%;
     transform: translate(-50%, -50%);
 }
+
+.sql { top: 20%;
+    left: 8%;
+    transform: translate(-50%, -50%);
+}
