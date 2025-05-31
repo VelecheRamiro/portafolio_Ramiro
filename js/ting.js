@@ -7,7 +7,8 @@ const translations = {
         mis: ['Mis estudios', 'My studies'],
         exp: ['Experiencia', 'Experience'],
         init: ['Inicio', 'Init'],
-        fecha: ['Fecha de nacimiento: 14/02/2004', 'BirthDay: 02/14/2004']
+        contact:['Contactame','Contact me']
+
     },
     exp: {
         titulo: ['Mi Experiencia laboral', 'My Work Experience'],
