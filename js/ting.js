@@ -51,7 +51,17 @@ const translations = {
         init: ['Inicio', 'Init'],
         boting: ['Translate', 'Traducir'],
         exp: ['Experiencia', 'Experience'],
-        titulo: ['Mis estudios','My studies']
+        contact:['Contactame','Contact me'],
+        titulo: ['Mis estudios','My studies'],
+        se1: ['Titulo secundario','Secondary title'],
+        se2: ['Bachiller en ciencias naturales','High School Graduate with specialization in Natural Sciences'],
+        se3: ['E.E.S N°3, recibido en 2021','E.E.E.S N°3, receive in 2021'],
+        se4: ['N° Vericacion: 95045', 'Verification No: 95045'],
+        ing1: ['Certificado de ingles','English certificate'],
+        ing2: ['First grado nivel C, recibido en 2021','First level grade C, receive in 2021'],
+        ing3: ['N° Vericacion: B6972632', 'Verification No: B6972632'],
+        an1: ['Estudio en Analista de sistema', 'Study in systems analysis'],
+        an2: ['Actualmente estudiando desde 2023','Currently studying since 2023' ]
     }
 };
 
