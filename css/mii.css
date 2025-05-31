@@ -1,60 +1,93 @@
-nav {
-    background-color: rgba(19, 2, 255, 0.404);
-    font-size: 25px;
-}
-
 body {
-    font-style: italic;
+    font-family: 'Segoe UI', sans-serif;
+    background-color: #f7f9fc;
+    color: #ffffff;
+    margin: 0;
+    padding: 0;
 }
 
+.navbar {
+    background-color: #2c3e50;
+}
+
+.navbar .nav-link,
+.navbar-brand,
+.navbar-toggler {
+    color: #fff !important;
+}
 
 .titulo {
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-    flex-direction: column;
-    font-size: 60px;
+    text-align: center;
+    font-size: 2rem;
+    font-weight: bold;
+    margin-top: 40px;
 }
 
 .sub {
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-    flex-direction: column;
-    font-size: 20px;
-
+    text-align: center;
+    font-size: 1.2rem;
+    color: #cecece;
+    margin-top: 10px;
 }
 
-ul {
+.pues {
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
     align-items: center;
-    flex-direction: row;
+    margin: 40px 20px;
+    gap: 30px;
 }
 
-li {
+.pues .info {
+    max-width: 600px;
+}
+
+.pues img {
+    border-radius: 12px;
+    max-width: 180px;
+    height: auto;
+}
+
+.yoo {
+    background: #596e77;
+    padding: 30px;
+    border-radius: 12px;
+    margin: 40px 20px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.info,
+.info2 {
     list-style: none;
+    padding-left: 0;
 }
 
-.info {
-    margin: 10px;
-    border: 2px solid #1100ff;
-    background-color: rgb(253, 255, 162);
-    box-sizing: border-box;
-    width: 50%;
-    font-family: initial;
-    font-size: 18px;
-    font-weight: 500;
-    padding: 10px;
+.info li,
+.info2 li {
+    padding: 8px 0;
+    border-bottom: 1px solid #eee;
 }
 
-.desinfo {
-    margin: 20px;
-    margin-left: 100px;
+.info2 {
+    margin-top: 20px;
 }
 
-.resalta {
-    color: #5a3ce0;
-    font-size: 20px;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+button#boting {
+    background-color: #3498db;
+    border: none;
+    color: white;
+    padding: 6px 12px;
+    border-radius: 6px;
+    margin-left: 10px;
 }
+
+@media (max-width: 768px) {
+    .pues {
+        flex-direction: column;
+    }
+}
+
+body {background-color: #00055c;
+    background-image: url("https://www.transparenttextures.com/patterns/shattered.png");
+    /* This is mostly intended for prototyping; please download the pattern and re-host for production environments. Thank you! */}

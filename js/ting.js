@@ -41,9 +41,18 @@ const translations = {
         mis: ['Mis estudios', 'My studies'],
         boting: ['Translate', 'Traducir'],
         init: ['Inicio', 'Init'],
+        contact: ['Contactame', 'Contact me'],
         exp: ['Experiencia', 'Experience'],
         titulo: ['Informacion personal','Personal information'],
-        yo: ['Soy Ramiro Veleche, un joven entusiasta con una gran pasión por la computación y la programación. Desde chico he estado familiarizado con el uso de computadoras, lo que despertó mi interés por el mundo tecnológico y me impulsó a estudiar la carrera de Analista de Sistemas. A lo largo de mi formación, he adquirido conocimientos de programación y herramientas informáticas, y me destaco por mi facilidad para aprender cosas nuevas.Me gusta trabajar en equipo, no tengo dificultades para colaborar con otros, y estoy siempre dispuesto a asumir nuevos desafíos laborales con compromiso y responsabilidad.', 'Im Ramiro Veleche, a young enthusiast with a deep passion for computing and programming.From a young age, I have been familiar with using computers, which sparked my interest in the tech world and motivated me to pursue a career as a Systems Analyst. Throughout my studies, I have gained programming knowledge and mastered various software tools.I stand out for my ability to quickly learn new things.I enjoy teamwork, have no trouble collaborating with others, and am always ready to take on new professional challenges with commitment and responsibility.']
+        yo: ['Soy Ramiro Veleche, un joven entusiasta con una gran pasión por la computación y la programación. Desde chico he estado familiarizado con el uso de computadoras, lo que despertó mi interés por el mundo tecnológico y me impulsó a estudiar la carrera de Analista de Sistemas. A lo largo de mi formación, he adquirido conocimientos de programación y herramientas informáticas, y me destaco por mi facilidad para aprender cosas nuevas.Me gusta trabajar en equipo, no tengo dificultades para colaborar con otros, y estoy siempre dispuesto a asumir nuevos desafíos laborales con compromiso y responsabilidad.', 'Im Ramiro Veleche, a young enthusiast with a deep passion for computing and programming.From a young age, I have been familiar with using computers, which sparked my interest in the tech world and motivated me to pursue a career as a Systems Analyst. Throughout my studies, I have gained programming knowledge and mastered various software tools.I stand out for my ability to quickly learn new things.I enjoy teamwork, have no trouble collaborating with others, and am always ready to take on new professional challenges with commitment and responsibility.'],
+        fna: ['Fecha de nacimiento: 14/02/2004','BirthDay: 02/14/2004'],
+        pna: ['Pais de nacimiento: Argentina', 'Country: Argentina'],
+        in: ['Nivel de ingles: Medio', 'English level: Medium'],
+        li: ['Licencia de conducir: Si (auto)', 'Driver license: Yes (cars)'],
+        di: ['Disponibilidad horadia: Horario Completo', 'Hourly availability: Full schedule'],
+        he: ['Herramientas: Excel, VS Code, Git, Trello, Mysql','Tools: Excel, VS Code, Git, Trello, Mysql'],
+        res: ['Interes: Computacion, Aprendizaje de idiomas, Desarrollo de Juegos', 'Personal interests: Computing, Language Learning, Game Development' ]
+
 
     },
     study: {
