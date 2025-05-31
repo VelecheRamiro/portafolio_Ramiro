@@ -47,7 +47,7 @@ const translations = {
         fna: ['Fecha de nacimiento: 14/02/2004','BirthDay: 02/14/2004'],
         pna: ['Pais de nacimiento: Argentina', 'Country: Argentina'],
         in: ['Nivel de ingles: Medio', 'English level: Medium'],
-        li: ['Licencia de conducir:Si (auto)', 'Driver license: Yes (cars)'],
+        li: ['Licencia de conducir: Si (auto)', 'Driver license: Yes (cars)'],
         di: ['Disponibilidad horadia: Horario Completo', 'Hourly availability: Full schedule'],
         he: ['Herramientas: Excel, VS Code, Git, Trello, Mysql','Tools: Excel, VS Code, Git, Trello, Mysql'],
         res: ['Interes: Computacion, Aprendizaje de idiomas, Desarrollo de Juegos', 'Personal interests: Computing, Language Learning, Game Development' ]
