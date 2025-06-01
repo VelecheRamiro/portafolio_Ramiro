@@ -143,3 +143,9 @@ body {
     left: 8%;
     transform: translate(-50%, -50%);
 }
+
+.navimg {
+    object-fit: contain;
+    border-radius: 20%;
+
+}

@@ -72,6 +72,20 @@ const translations = {
         ing3: ['N° Vericacion: B6972632', 'Verification No: B6972632'],
         an1: ['Estudio en Analista de sistema', 'Study in systems analysis'],
         an2: ['Actualmente estudiando desde 2023','Currently studying since 2023' ]
+    },
+    contact: {
+        sobre: ['Sobre mi', 'About me'],
+        mis: ['Mis estudios', 'My studies'],
+        init: ['Inicio', 'Init'],
+        boting: ['Translate', 'Traducir'],
+        exp: ['Experiencia', 'Experience'],
+        contact: ['Contactame', 'Contact me'],
+        titulo: ['Mis estudios', 'My studies'],
+        formTitle: ['Contáctame', 'Contact me'],
+        namePlaceholder: ['Tu nombre', 'Your name'],
+        emailPlaceholder: ['Tu correo electrónico', 'Your email'],
+        msgPlaceholder: ['Escribe tu mensaje aquí...', 'Write your message here...'],
+        sendBtn: ['Enviar mensaje', 'Send message'],
     }
 };
 
@@ -82,10 +96,10 @@ function getPageKey() {
     if (path.includes('exp.html')) return 'exp';
     if (path.includes('mii.html')) return 'mii';
     if (path.includes('study.html')) return 'study';
+    if (path.includes('contact.html')) return 'contact';
     return null;
 }
 
-// Aplica las traducciones para la página actual
 function setLanguage(langIndex) {
     const pageKey = getPageKey();
     if (!pageKey) return;
@@ -93,7 +107,14 @@ function setLanguage(langIndex) {
     const pageTranslations = translations[pageKey];
     for (const [id, texts] of Object.entries(pageTranslations)) {
         const element = document.getElementById(id);
-        if (element) element.textContent = texts[langIndex];
+        if (!element) continue;
+
+        // Si es un input o textarea con placeholder
+        if (element.placeholder !== undefined) {
+            element.placeholder = texts[langIndex];
+        } else {
+            element.textContent = texts[langIndex];
+        }
     }
 }
 
@@ -114,3 +135,4 @@ function applySavedLanguage() {
 
 // Ejecutar al cargar la página
 document.addEventListener('DOMContentLoaded', applySavedLanguage);
+

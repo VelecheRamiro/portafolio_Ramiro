@@ -217,3 +217,9 @@ ul {
 #tct {
     margin-top: 10px;
 }
+
+.navimg {
+    object-fit: contain;
+    border-radius: 20%;
+
+}

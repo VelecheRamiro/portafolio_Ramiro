@@ -89,5 +89,11 @@ button#boting {
 }
 
 body {background-color: #00055c;
-    background-image: url("https://www.transparenttextures.com/patterns/shattered.png");
-    /* This is mostly intended for prototyping; please download the pattern and re-host for production environments. Thank you! */}
+    background-image: url("https://www.transparenttextures.com/patterns/shattered.png");}
+
+    .navimg {
+            object-fit: contain;
+            border-radius: 20%;
+    
+        }
+    
