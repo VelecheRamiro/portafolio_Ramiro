@@ -27,10 +27,9 @@ body {
 .sub {
     text-align: center;
     font-size: 1.2rem;
-    color: #666;
+    color: #cecece;
     margin-top: 10px;
 }
-
 
 button#boting {
     background-color: #3498db;
@@ -114,3 +113,4 @@ form button:hover {
 .social-links img:hover {
     transform: scale(1.1);
 }
+

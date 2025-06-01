@@ -23,12 +23,12 @@ body {
     font-size: 2rem;
     font-weight: bold;
     margin-top: 40px;
+    color: #fff
 }
-
 .sub {
     text-align: center;
     font-size: 1.2rem;
-    color: #666;
+    color: #cecece;
     margin-top: 10px;
 }
 
