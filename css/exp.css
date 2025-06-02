@@ -1,0 +1,225 @@
+body {
+    background-color: #00055c;
+        background-image: url("https://www.transparenttextures.com/patterns/shattered.png");
+        
+    font-family: 'Segoe UI', sans-serif;
+    color: #ffffff;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar {
+    background-color: #2c3e50;
+}
+
+.navbar .nav-link,
+.navbar-brand,
+.navbar-toggler {
+    color: #fff !important;
+}
+
+.titulo {
+    text-align: center;
+    font-size: 2rem;
+    font-weight: bold;
+    margin-top: 40px;
+    color: #fff
+}
+.sub {
+    text-align: center;
+    font-size: 1.2rem;
+    color: #cecece;
+    margin-top: 10px;
+}
+
+
+button#boting {
+    background-color: #3498db;
+    border: none;
+    color: white;
+    padding: 6px 12px;
+    border-radius: 6px;
+    margin-left: 10px;
+}
+
+@media (max-width: 768px) {
+    .pues {
+        flex-direction: column;
+    }
+}
+
+
+.super{
+    padding: 5%;
+    padding-left: 18%;
+}
+
+.emas{
+    padding: 5%;
+    padding-left: 50%
+}
+
+ul {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: left;
+    flex-direction: column;
+    align-items: left;
+    flex-direction: column;
+}
+
+ .super-container {
+     background-color: #7a87cf;
+     border-radius: 15px;
+     box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+     padding: 20px;
+     margin-bottom: 20px;
+     display: flex;
+     flex-wrap: wrap;
+     gap: 20px;
+     align-items: flex-start;
+ }
+
+ .super-container img {
+     width: 200px;
+     border-radius: 15px;
+     flex-shrink: 0;
+ }
+
+ .info-container {
+     flex: 1;
+ }
+
+ .info-container ul {
+     list-style: none;
+     padding: 0;
+     margin: 0;
+ }
+
+ .info-container ul li {
+     background-color: hsl(61, 75%, 63%);
+     color: #000000;
+     margin-bottom: 10px;
+     padding: 10px 15px;
+     border-radius: 10px;
+     font-weight: 500;
+ }
+
+ .Titems {
+     margin-top: 20px;
+ }
+
+ .Tinfo {
+     background-color: #000000;
+     padding: 15px;
+     border-radius: 10px;
+     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
+    color: #000000;
+ }
+
+ .contact-info {
+     margin-top: 20px;
+ }
+
+ .contact-info p {
+     margin: 5px 0;
+ }
+
+
+ .elec-container {
+     background-color: #7a87cf;
+     border-radius: 15px;
+     box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+     padding: 20px;
+     margin-bottom: 20px;
+     display: flex;
+     flex-wrap: wrap;
+     gap: 20px;
+     align-items: flex-start;
+ }
+
+ .elec-container img {
+     width: 300px;
+     border-radius: 15px;
+     flex-shrink: 0;
+ }
+
+ .elec-info-container {
+     flex: 1;
+ }
+
+ .elec-info-container ul {
+     list-style: none;
+     padding: 0;
+     margin: 0;
+ }
+
+ .elec-info-container ul li {
+     background-color: #462fad;
+     margin-bottom: 10px;
+     padding: 10px 15px;
+     border-radius: 10px;
+     font-weight: 500;
+ }
+
+ .Titems {
+     margin-top: 20px;
+ }
+
+ .Tinfo {
+     background-color: #f4f4f4;
+     padding: 15px;
+     border-radius: 10px;
+     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
+ }
+
+ .contact-info {
+     margin-top: 20px;
+ }
+
+ .contact-info p {
+     margin: 5px 0;
+ }
+
+.contact-info {
+    background-color: #f9f9f9;
+    border-left: 4px solid #007BFF;
+    padding: 16px 24px;
+    margin: 20px 0;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+    font-family: Arial, sans-serif;
+    max-width: 500px;
+}
+
+.contact-info p {
+    margin: 10px 0;
+    color: #333;
+    font-size: 16px;
+}
+
+.contact-info p:first-child {
+    font-weight: bold;
+    font-size: 18px;
+    color: #007BFF;
+}
+
+.contact-info a {
+    color: #007BFF;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+.contact-info a:hover {
+    text-decoration: underline;
+}
+
+#tct {
+    margin-top: 10px;
+}
+
+.navimg {
+    object-fit: contain;
+    border-radius: 20%;
+
+}
